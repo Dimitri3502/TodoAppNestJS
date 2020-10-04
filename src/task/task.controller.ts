@@ -1,6 +1,5 @@
 import { Controller, Body, Post, Get, Param, Put, Delete, HttpCode, HttpStatus } from '@nestjs/common';
 import { CreateTaskDTO } from '../dto/create-task.dto';
-import { TaskStatus } from '../entity/task.entity';
 import { TaskService } from './task.service';
 import { UpdateTaskDTO } from '../dto/update-task.dto';
 
